@@ -1,0 +1,49 @@
+*{
+    font-family: 'Grape Nuts', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f1f5f8;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    align-items: center;
+    margin: 0 auto;
+    padding: 70px;
+}
+
+.image{
+    height: 100%;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+.countdown{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    min-width: 350px;
+    padding: 20px;
+}
+
+.countdown-item{
+    background-color: #8B0000;
+    padding: 6px;
+    min-width: 65px; 
+    
+}
+
+.expired{
+    color: #222;
+    margin: 0 auto;
+}
